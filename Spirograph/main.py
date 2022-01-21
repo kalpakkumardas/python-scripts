@@ -23,7 +23,7 @@ def draw_spiroraph(size_of_gap):
         tim.setheading(tim.heading() + size_of_gap)
 
 
-n = int(input("How close yoy want the gap between the circles to be : "))
+n = int(input("How close you want the gap between the circles to be : "))
 draw_spiroraph(n)
 screen = t.Screen()
 screen.exitonclick()
