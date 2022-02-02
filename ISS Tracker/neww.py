@@ -3,10 +3,10 @@ import requests
 import datetime as dt
 import smtplib
 
-MY_LAT = 22.572645
-MY_LONG = 88.363892
-MY_EMAIL = "hellokalpak@yahoo.com"
-MY_PASSWORD = "utglmzheocvkolel"
+MY_LAT = "your latitude"
+MY_LONG = "your longitude"
+MY_EMAIL = "your email"
+MY_PASSWORD = "your password"
 
 
 def is_night_and_overhead():
